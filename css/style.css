@@ -1,0 +1,195 @@
+/*----- RESET ----- */
+*{
+   margin: 0;
+   padding: 0;
+   border: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+html {
+   font-family: 'Open Sans', sans-serif;
+
+   font-size: 62.5%;
+}
+
+:root {
+   --color-light-black: rgba(0, 0, 0, 0.6);
+
+   --font-play : 'Playfair Display', serif;
+}
+
+/*----- BACKGROUND ----- */
+body {
+   background: #E5E5E5;
+}
+
+header {
+   background: white;
+}
+
+/*----- PADRÕES ----- */
+main {
+   display: flex;
+   padding: 4rem 7rem;
+}
+
+h1 {
+   font-family: var(--font-play);
+   font-size: 6.4rem;
+   font-weight: normal;
+}
+
+h3 {
+   font-weight: normal;
+   font-size: 1.6rem;
+}
+
+p.color-p {
+   color: var(--color-light-black);
+}
+
+.line {
+   width: 8rem;
+   border-top: .2rem solid ;
+   margin-top: .8rem;
+}
+
+a {
+   color: black;
+}
+
+li {
+   list-style: none;
+}
+
+/*----- HEADER ----- */
+header {
+   display: flex;
+   align-items: flex-end;
+   padding: 3.2rem 6.4rem;
+}
+
+header .photo {
+   border: .4rem solid #cfa301;
+   border-radius: 50%;
+   margin-bottom: -9rem;
+   margin-right: 2.4rem;
+   width: 18%;
+}
+
+header .user-data {
+   margin-bottom: -2rem;
+}
+
+.user-data h1 span {
+   font-weight: bold;
+}
+.user-data .profission {
+   font-size: 2.4rem;
+}
+
+/*----- COLUNA MENOR ----- */
+.coluna-menor {
+   font-size: 1.6rem;
+   margin-top: 48px;
+   width: 24%;
+}
+
+/*----- EXPERIÊNCIAS PROFISSIONAIS ----- */
+.experiences ul li,
+.formation ul li {
+   align-items: center;
+   display: flex;
+
+   margin-top: 4rem;
+}
+
+
+.experiences .line {
+   border-color: #4200FF;
+}
+
+.coluna-menor img {
+   border-radius: .4rem;
+
+   margin-right: 2rem;
+   
+   width: 4rem;
+}
+
+/*----- FORMAÇÕES ----- */
+.formation h2 {
+   margin-top: 3.2rem;
+}
+
+.formation .line {
+   border-color: #cfa301;
+}
+
+/*----- COLUNA MAIOR ----- */
+.coluna-maior {
+   margin-left: 2.4rem;
+}
+
+/*----- HABILIDADES ----- */
+.coluna-maior h2 {
+   font-size: 4.2rem;
+   margin-bottom: 2rem;
+   margin-left: 1rem;
+}
+
+.abilitys {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.ability {
+   background: white;
+   border-radius: 1.6rem;
+   margin: 1.2rem;
+   padding: 2.4rem;
+   width: 32rem;
+}
+
+.ability h3 {
+   font-size: 3rem;
+   font-weight: bold;
+   margin-bottom: 1.6rem;
+}
+
+.ability p {
+   font-size: 2rem;
+   margin-bottom: .8rem;
+}
+
+.ability p span {
+   color: var(--color-light-black);
+}
+
+.ability p img {
+   width: 2.4rem;
+}
+
+.ability li:first-child {
+   margin-top: 0;
+}
+
+.ability li {
+   margin-top: 3.2rem;
+}
+
+.ability .progress {
+   width: 100%;
+   display: flex;
+}
+
+.ability .progress .bar {
+   background: #4200FF;
+   height: .4rem;
+   width: 10%;
+}
+
+.incomplete {
+   opacity: .2;
+}
