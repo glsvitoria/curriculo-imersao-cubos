@@ -28,7 +28,7 @@
  3. Após clonar o projeto, basta apenas abrir o html principal do site e utilizar as suas funcionalidades
 
 ### Screenshot
-![](./images/Screenshot.png)
+![](./images/Screenshot.PNG)
 ### Links
 - Site hospedado: [Currículo](https://glsvitoria.netlify.app)
 ![](./images/QR-curriculo-200px.png)
