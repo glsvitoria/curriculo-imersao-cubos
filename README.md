@@ -30,8 +30,10 @@
 ### Screenshot
 ![](./images/Screenshot.png)
 ### Links
-- Site hospedado: [Currículo](https://glsvitoria.netlify.app)
-![](./images/QR-curriculo-200px.png)
+<div style="display=flex;">
+  <p>- Site hospedado: [Currículo](https://glsvitoria.netlify.app)</p>
+  <img>![](./images/QR-curriculo-200px.png)</img>
+</div>
 
 ## Processo
 
