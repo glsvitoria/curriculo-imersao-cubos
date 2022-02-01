@@ -1,7 +1,3 @@
-# curriculo-imersao-cubos
-Meu currículo feito durante a Imersão Programação do Zero da Cubos Academy
-https://glsvitoria.netlify.app
-
 ## Currículo - Online
 <p align="center">
   <img src="https://img.icons8.com/plasticine/2x/circled-play.png" width="200px" height="200px"/></p>
